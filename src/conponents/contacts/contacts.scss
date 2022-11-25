@@ -1,0 +1,48 @@
+.personal-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.personal-data_location {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  img {
+    height: 30px;
+
+    margin: 0 5px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.contacts {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  padding: 0 30px;
+
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 500px) {
+    justify-content: center;
+  }
+
+  .contacts_info {
+    width: 230px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
