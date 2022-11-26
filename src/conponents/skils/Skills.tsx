@@ -1,7 +1,6 @@
 function Skills() {
   return ( 
-    <div className="skills">
-      <div className="ticker">
+    <div className="skills ticker">
         <p>
           <span>React</span>
           <span>Sass</span>
@@ -10,23 +9,18 @@ function Skills() {
           <span>Webpack</span>
           <span>JavaScript</span>
           <span>Typescript</span>
+          <span>Bootstrap</span>
           <span>Git</span>
           <span>NodeJS</span>
           <span>Express</span>
           <span>NestJS</span>
           <span>Mongoose</span>
-          <span>Sass</span>
-          <span>CSS</span>
-          <span>HTML5</span>
-          <span>Webpack</span>
-          <span>JavaScript</span>
-          <span>Typescript</span>
-          <span>Git</span>
           <span>npm</span>
+          <span>PostgreSQL</span>
+          <span>TypeORM</span>
         </p>
-        </div>
     </div>
-   );
+    );
 }
 
 export default Skills;

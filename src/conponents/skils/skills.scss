@@ -2,7 +2,10 @@
   width: 100%;
   display: flex;
 
+  min-height: 30px;
+
   overflow: hidden;
+
 }
 
 .ticker {
@@ -11,12 +14,15 @@
   p {
     text-align:center;
     text-transform: uppercase;
-    padding-top: 35px;
     animation: text 15s infinite linear;
     padding-left: 100%;
     white-space: nowrap;
     span {
       margin: 10px;
+    }
+    @media screen and (max-width: 500px) {
+      padding-left: 50%;
+      width: 150vw;
     }
   }
   @keyframes text {

@@ -1,8 +1,8 @@
 function ViberInfo() {
   return (       
-  <div className="contacts_info">
+  <a className="contacts_info"  href="tel:+375292208977" target="_blank" rel="noreferrer" title="+375292208977">
   <svg
-    enable-background="new 0 0 100 100"
+    enableBackground="new 0 0 100 100"
     id="Layer_5"
     version="1.1"
     viewBox="0 0 100 100"
@@ -15,8 +15,8 @@ function ViberInfo() {
       fill="#7D51A0"
     />
   </svg>
-  <a href="tel:+375292208977">+375292208977</a>
-</div> );
+  <p>+375292208977</p>
+</a> );
 }
 
 export default ViberInfo;

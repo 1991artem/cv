@@ -1,8 +1,8 @@
 function LinkedInfo() {
   return ( 
-    <div className="contacts_info">
+    <a className="contacts_info" href="https://www.linkedin.com/in/artem-puzik-797668235/" target="_blank" rel="noreferrer" title="artem-puzik-797668235">
     <svg
-      enable-background="new 0 0 100 100"
+      enableBackground="new 0 0 100 100"
       id="Layer_3"
       version="1.1"
       viewBox="0 0 100 100"
@@ -21,10 +21,10 @@ function LinkedInfo() {
         />
       </g>
     </svg>
-    <a href="https://www.linkedin.com/in/artem-puzik-797668235/">
+    <p>
       artem-puzik-797668235
-    </a>
-  </div>
+    </p>
+  </a>
     );
 }
 

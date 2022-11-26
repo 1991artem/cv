@@ -11,7 +11,7 @@ function Contacts() {
       <SkypeInfo/>
       <LinkedInfo/>
     </div>
-   );
+    );
 }
 
 export default Contacts;

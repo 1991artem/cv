@@ -1,8 +1,8 @@
 function SkypeInfo() {
   return ( 
-    <div className="contacts_info">
+    <a className="contacts_info" href="skype:karapuz4980" target="_blank" rel="noreferrer" title="karapuz4980">
     <svg
-      enable-background="new 0 0 100 100"
+      enableBackground="new 0 0 100 100"
       id="Layer_4"
       version="1.1"
       viewBox="0 0 100 100"
@@ -15,9 +15,9 @@ function SkypeInfo() {
         fill="#00AEF3"
       />
     </svg>
-    <a href="skype:karapuz4980">karapuz4980</a>
-  </div>
-   );
+    <p>karapuz4980</p>
+  </a>
+    );
 }
 
 export default SkypeInfo;

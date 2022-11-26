@@ -2,6 +2,8 @@
 @import './conponents/start/first.scss';
 @import './conponents//contacts/contacts.scss';
 @import './conponents/skils/skills.scss';
+@import './conponents/nav/nav.scss';
+@import './conponents/about/about.scss';
 
 $background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 
@@ -13,11 +15,14 @@ $background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 
 body {
   width: 100vw;
-  min-width: 500px;
   display: flex;
   justify-content: center;
 
   font-family: 'Patrick Hand', cursive;
+
+  background: $background;
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
 
   a {
     text-decoration: none;
@@ -28,19 +33,15 @@ body {
 #root {
   max-width: 1200px;
   width: 100vw;
-  min-width: 500px;
-  height: 100vh;
-
+  min-width: 320px;
+  min-height: 100vh;
+  
   display: flex;
   justify-content: center;
 
   justify-content: space-between;
 
   flex-direction: column;
-
-  background: $background;
-	background-size: 400% 400%;
-	animation: gradient 8s ease infinite;
 }
 
 @keyframes gradient {

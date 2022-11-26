@@ -2,7 +2,7 @@ export default function PersonalData() {
   return (
     <div className="personal-data">
       <h1>ARTEM PUZIK</h1>
-      <p>FULL-STACK</p>
+      <p>FRONTEND</p>
       <p>SOFTWARE DEVELOPER</p>
       <div className="personal-data_location">
         <img src={require("../../img/location-marker.png")} alt="geolocation" />
