@@ -1,18 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavigateHeader from './conponents/nav/Nav';
-import Skills from './conponents/skils/Skills';
-import AppRouter from './conponents/router/AppRouter';
+import NavigateHeader from './components/nav/Nav';
+import Skills from './components/skils/Skills';
+import AppRouter from './components/router/AppRouter';
 
 function App() {
   return (
-    <>
-          <NavigateHeader/>
-          <AppRouter />
-          <Skills />
-    </>
-
-
+      <AppRouter />
   );
 }
 
