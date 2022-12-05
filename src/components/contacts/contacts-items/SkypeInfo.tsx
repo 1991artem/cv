@@ -1,6 +1,6 @@
 function SkypeInfo() {
   return ( 
-    <a className="contacts_info" href="skype:karapuz4980" target="_blank" rel="noreferrer" title="karapuz4980">
+    <a className="contacts_info less-720" href="skype:karapuz4980" target="_blank" rel="noreferrer" title="karapuz4980">
     <svg
       enableBackground="new 0 0 100 100"
       id="Layer_4"

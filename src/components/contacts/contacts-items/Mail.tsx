@@ -1,7 +1,7 @@
 function Mail() {
   return (
     <a
-      className="contacts_info"
+      className="contacts_info less-720"
       type="email"
       href="artem.puzik.it@gmail.com"
       target="_blank"

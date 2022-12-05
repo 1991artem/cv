@@ -1,5 +1,5 @@
 import LinkedInfo from "./contacts-items/LinkedInfo";
-import SkypeInfo from "./contacts-items/SkypeInfp";
+import SkypeInfo from "./contacts-items/SkypeInfo";
 import TelegrammInfo from "./contacts-items/TelegrammInfo";
 import ViberInfo from "./contacts-items/ViberInfo";
 import GitHub from './contacts-items/GitHub';

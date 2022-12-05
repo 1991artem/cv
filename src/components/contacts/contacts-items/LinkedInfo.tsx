@@ -1,6 +1,6 @@
 function LinkedInfo() {
   return ( 
-    <a className="contacts_info" href="https://www.linkedin.com/in/artem-puzik-797668235/" target="_blank" rel="noreferrer" title="artem-puzik-797668235">
+    <a className="contacts_info less-720" href="https://www.linkedin.com/in/artem-puzik-797668235/" target="_blank" rel="noreferrer" title="artem-puzik-797668235">
     <svg
       enableBackground="new 0 0 100 100"
       id="Layer_3"

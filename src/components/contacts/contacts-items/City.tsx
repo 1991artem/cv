@@ -1,15 +1,15 @@
 export default function City() {
   return (
     <a
-      className="contacts_info"
+      className="contacts_info less-720"
       href="https://yandex.by/maps/157/minsk/house/Zk4YcAdiSkwOQFtpfXR3dntrYw==/?ll=27.602399%2C53.867788&z=17"
       target="_blank"
       rel="noreferrer"
       title="https://github.com/1991artem"
     >
       <svg
-        width="40"
-        height="41"
+        width="50"
+        height="51"
         viewBox="0 0 40 41"
         fill="none"
       >

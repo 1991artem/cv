@@ -5,7 +5,11 @@ import SkillFigma from "./skills-items/tech-skills/SkillFigma";
 import SkillGit from "./skills-items/tech-skills/SkillGit";
 import SkillHtml from "./skills-items/tech-skills/SkillHtml";
 import SkillJs from "./skills-items/tech-skills/SkillJs";
+import SkillMongo from "./skills-items/tech-skills/SkillMongo";
+import SkillNest from "./skills-items/tech-skills/SkillNest";
 import SkillNode from "./skills-items/tech-skills/SkillNode";
+import SkillNpm from "./skills-items/tech-skills/SkillNpm";
+import SkillPsql from "./skills-items/tech-skills/SkillPsql";
 import SkillReact from "./skills-items/tech-skills/SkillReact";
 import SkillScss from "./skills-items/tech-skills/SkillScss";
 import SkillTs from "./skills-items/tech-skills/SkillTs";
@@ -15,7 +19,7 @@ function TechSkills() {
   return ( 
     <div className="skills">
       <p>Tech-Stack</p>
-      <div className="skills-container_tech">
+      <div className="skills-container">
         <SkillHtml />
         <SkillCss />
         <SkillJs />
@@ -28,17 +32,13 @@ function TechSkills() {
         <SkillWebpack />
         <SkillNode />
         <SkillExpress />
+        <SkillNest />
+        <SkillMongo />
+        <SkillNpm />
+        <SkillPsql />
       </div>
     </div>
     );
 }
 
 export default TechSkills;
-
-{/* 
-<li>Express</li>
-<li>NestJS</li>
-<li>Mongoose</li>
-<li>npm</li>
-<li>PostgreSQL</li>
-<li>TypeORM</li> */}

@@ -2,6 +2,7 @@ $text-color-1: #6996DB;
 $text-color-2: black;
 
 .experience {
+  min-width: 320px;
   .experience_title {
     font-weight: 700;
     font-size: 32px;
@@ -11,21 +12,24 @@ $text-color-2: black;
   }
   .exp-item_container {
     border-bottom: 1px solid grey;
+    margin-bottom: 10px;
     .company-name {
       display: flex;
       flex-direction: row;
+      justify-content: space-between;
+      @media screen and (max-width: 900px) {
+        flex-direction: column;
+      }
       p {
         font-weight: 700;
         font-size: 24px;
         margin: 0 5px;
-        color: $text-color-1;
-        span {
-          color: $text-color-1;
+        color: $text-color-2;
           &:first-child {
-            font-size: 28px;
-            text-shadow: 1px 1px 1px $text-color-1;
+            font-size: 20px;
+            color: $text-color-2;
+            font-weight: 400;
           }
-        }
       }
     }
     .company-location {

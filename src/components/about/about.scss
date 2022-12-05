@@ -1,18 +1,21 @@
-$background: #F0F6FF;
+$background: #d7e5f9;
 .about-page {
-  height: 100vh;
   display: flex;
   flex-direction: row;
 
+  min-width: 320px;
+
   padding: 20px;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 900px) {
     flex-direction: column;
+    padding: 0px;
+    margin: 0 auto;
   }
 
   .about-page_info {
-    width: 25vw;
-    min-width: 280px;
+    width: 35vw;
+    min-width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,9 +24,8 @@ $background: #F0F6FF;
 
     background-color: $background;
 
-    @media screen and (max-width: 700px) {
-      margin: 0 auto;
-      max-width: 100vw;
+    @media screen and (max-width: 900px) {
+      width: 100%;
     }
   }
   .about-page_info_foto {
@@ -32,30 +34,36 @@ $background: #F0F6FF;
     img {
       max-width: 200px;
       @media screen and (max-width: 500px) {
-        width: 100px;
+        width: 150px;
       }
-    }
-    @media screen and (max-width: 700px) {
-      justify-content: center;
     }
   }
 }
 
 .header-notes {
-  width: 70%;
-  margin: 10px auto;
-  p {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 25px;
+  width: 100%;
+    p {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 25px;
+      @media screen and (max-width: 900px) {
+        font-size: 20px;
+      }
   }
 }
 
 .about-page_main {
-  width: 75vw;
+  width: 65vw;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 .owner-name {
+  width: 100%;
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -83,5 +91,41 @@ $background: #F0F6FF;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
+  }
+}
+
+.header-main {
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 70px;
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+
+  .rectangle {
+    width: 110px;
+    height: 320px;
+
+    display: flex;
+    margin-right: auto;
+
+    margin-right: 50px;
+
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
+  }
+
+  .header-main_info {
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    align-items: center;
   }
 }

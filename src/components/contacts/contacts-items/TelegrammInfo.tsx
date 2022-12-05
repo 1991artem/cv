@@ -6,7 +6,6 @@ function TelegrammInfo() {
           id="Layer_1"
           version="1.1"
           viewBox="0 0 100 100"
-          width="100px"
           xmlSpace="preserve"
         >
           <g>

@@ -5,7 +5,7 @@ function Footer() {
     <div className="container-fluid text-center text-md-left">
                 <Contacts />
     <div className="footer-copyright text-center py-3">© 2022 Copyright:
-        <a href="https://github.com/1991artem"> GitHub</a>
+        <a href="https://github.com/1991artem"> Artem Puzik</a>
     </div>
     </div>
 </footer>
