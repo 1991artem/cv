@@ -2,8 +2,8 @@ function SkillReact() {
   return (
     <svg
       viewBox="0 0 40 40"
-      width="41"
-      height="41"
+      width="48px"
+      height="48px"
     >
       <path
         fill="#4e7ab5"

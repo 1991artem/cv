@@ -1,23 +1,6 @@
+import { useState, useEffect } from 'react';
 import { ExperienceType } from "../types/types";
 import ExpItem from "./ExpItem";
-
-function Experience() {
-
-  return ( 
-    <div className="experience">
-      <p className="experience_title">PROFESSIOANL EXPERIENCE</p>
-      {
-        workArray.map((item: ExperienceType) =>( <ExpItem data={item} key={Date.now()}/>))
-      }
-      <p className="experience_title">EDUCATION</p>
-      {
-        educationArray.map((item: ExperienceType) =>( <ExpItem data={item} key={Date.now()}/>))
-      }
-    </div>
-    );
-}
-
-export default Experience;
 
 
 const workArray: ExperienceType[] = [
@@ -65,3 +48,29 @@ const educationArray: ExperienceType[] = [
     'Technologies': [],
   },
 ]
+
+
+function Experience() {
+  const [work, setWork] = useState([] as ExperienceType[])
+  const [education, setEducation] = useState([] as ExperienceType[])
+
+  useEffect(()=>{
+    setWork(workArray)
+    setEducation(educationArray)
+  }, [])
+
+  return ( 
+    <div className="experience">
+      <p className="experience_title">PROFESSIOANL EXPERIENCE</p>
+      {
+        work.map((item: ExperienceType) =>( <ExpItem data={item} key={Date.now()}/>))
+      }
+      <p className="experience_title">EDUCATION</p>
+      {
+        education.map((item: ExperienceType) =>( <ExpItem data={item} key={Date.now()}/>))
+      }
+    </div>
+    );
+}
+
+export default Experience;

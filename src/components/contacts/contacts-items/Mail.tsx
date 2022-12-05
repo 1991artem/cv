@@ -3,12 +3,14 @@ function Mail() {
     <a
       className="contacts_info less-720"
       type="email"
-      href="artem.puzik.it@gmail.com"
+      href="mailto: artem.puzik.it@gmail.com"
       target="_blank"
       rel="noreferrer"
       title="artem.puzik.it@gmail.com"
     >
       <svg
+        width="100%" 
+        height="100%"
         viewBox="0 0 40 41"
         fill="none"
       >

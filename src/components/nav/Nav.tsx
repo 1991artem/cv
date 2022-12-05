@@ -8,7 +8,7 @@ function NavigateHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavLink to="/">Experience</NavLink>
+            <NavLink to="/about">Experience</NavLink>
             <NavLink to="/projects">Projects</NavLink>
           </Nav>
         </Navbar.Collapse>

@@ -5,9 +5,9 @@ import Projects from "../projects/Projects";
 function AppRouter() {
   return ( 
     <Routes>
-      <Route path="/" element={<About />} />
+      <Route path="/about" element={<About />} />
       <Route path="/projects" element={<Projects />} />
-      <Route path="/*" element={<Navigate to="/" />} />
+      <Route path="/*" element={<Navigate to="/about" />} />
     </Routes>
     );
 }

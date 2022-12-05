@@ -1,10 +1,12 @@
 function ViberInfo() {
   return (       
-  <a className="contacts_info"  href="tel:+375292208977" target="_blank" rel="noreferrer" title="+375292208977">
+  <a className="icon"  href="viber://chat?number=%2B375292208977" target="_blank" rel="noreferrer" title="+375292208977">
   <svg
     enableBackground="new 0 0 100 100"
     id="Layer_5"
     version="1.1"
+    width="100%" 
+    height="100%"
     viewBox="0 0 100 100"
     xmlSpace="preserve"
   >

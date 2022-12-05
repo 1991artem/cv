@@ -5,11 +5,11 @@ export default function City() {
       href="https://yandex.by/maps/157/minsk/house/Zk4YcAdiSkwOQFtpfXR3dntrYw==/?ll=27.602399%2C53.867788&z=17"
       target="_blank"
       rel="noreferrer"
-      title="https://github.com/1991artem"
+      title="Minsk City"
     >
       <svg
-        width="50"
-        height="51"
+        width="100%"
+        height="100%"
         viewBox="0 0 40 41"
         fill="none"
       >

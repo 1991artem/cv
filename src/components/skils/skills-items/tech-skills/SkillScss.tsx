@@ -1,8 +1,8 @@
 function SkillScss() {
   return (
     <svg
-      width="40"
-      height="41"
+    width="48px"
+    height="48px"
       viewBox="0 0 40 41"
       fill="none"
     >

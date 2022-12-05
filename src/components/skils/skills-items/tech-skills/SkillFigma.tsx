@@ -1,8 +1,8 @@
 function SkillFigma() {
   return (
     <svg
-      width="41"
-      height="41"
+      width="48px"
+      height="48px"
       viewBox="0 0 41 41"
       fill="none"
     >

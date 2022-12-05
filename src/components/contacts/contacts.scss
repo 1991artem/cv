@@ -57,3 +57,16 @@ $contact-border-color: #C7C7C7;
     }
   }
 }
+
+.icon {
+  svg {
+    max-width: 50px;
+  }
+  p {
+    display: none;
+  }
+}
+
+.s-between {
+  justify-content: space-between;
+}

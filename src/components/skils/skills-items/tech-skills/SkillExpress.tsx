@@ -2,8 +2,8 @@ function SkillExpress() {
   return (
     <svg
       viewBox="0 0 40 40"
-      width="41px"
-      height="41px"
+      width="48px"
+      height="48px"
       baseProfile="basic"
     >
       <path
