@@ -11,6 +11,7 @@ import SkillNode from "./skills-items/tech-skills/SkillNode";
 import SkillNpm from "./skills-items/tech-skills/SkillNpm";
 import SkillPsql from "./skills-items/tech-skills/SkillPsql";
 import SkillReact from "./skills-items/tech-skills/SkillReact";
+import SkillRedux from "./skills-items/tech-skills/SkillRedux";
 import SkillScss from "./skills-items/tech-skills/SkillScss";
 import SkillTs from "./skills-items/tech-skills/SkillTs";
 import SkillWebpack from "./skills-items/tech-skills/SkillWebpack";
@@ -27,6 +28,7 @@ function TechSkills() {
         <SkillReact />
         <SkillScss />
         <SkillFigma />
+        <SkillRedux />
         <SkillGit />
         <SkillBootstrap />
         <SkillWebpack />
