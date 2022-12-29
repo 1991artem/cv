@@ -5,6 +5,14 @@ import ExpItem from "./ExpItem";
 
 const workArray: ExperienceType[] = [
   {
+    'Company': 'SLMax',
+    'Company Location': 'Belarus',
+    'Duration': '2022',
+    'Description': '',
+    'Position': 'React/React Native Developer',
+    'Technologies': ['React.js', 'React Native', 'WordPress', 'Node.js (Express)', 'Javascript ES6+', 'Typescript', 'GitHub', 'HTML', 'SCSS/CSS'],
+  },
+  {
     'Company': 'NP LLC "AKOVA',
     'Company Location': 'Belarus, Minsk',
     'Duration': '2011-2022',
