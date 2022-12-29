@@ -10,6 +10,7 @@ function NavigateHeader() {
           <Nav className="me-auto">
             <NavLink to="/about">Experience</NavLink>
             <NavLink to="/projects">Projects</NavLink>
+            <NavLink to="/certificate">Certificats</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

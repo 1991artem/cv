@@ -1,6 +1,6 @@
 function SkypeInfo() {
   return ( 
-    <a className="contacts_info less-720" href="skype:karapuz4980" target="_blank" rel="noreferrer" title="karapuz4980">
+    <a className="contacts_info less-720" href="live:.cid.251cd6e97f9cb1cd" target="_blank" rel="noreferrer" title="karapuz4980">
     <svg
       enableBackground="new 0 0 100 100"
       id="Layer_4"
@@ -15,7 +15,7 @@ function SkypeInfo() {
         fill="#00AEF3"
       />
     </svg>
-    <p>karapuz4980</p>
+    <p>live:.cid.251cd6e97f9cb1cd</p>
   </a>
     );
 }
