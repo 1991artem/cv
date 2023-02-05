@@ -7,10 +7,10 @@ const workArray: ExperienceType[] = [
   {
     'Company': 'SLMax',
     'Company Location': 'Belarus',
-    'Duration': '2022',
+    'Duration': '2022 -',
     'Description': '',
     'Position': 'React/React Native Developer',
-    'Technologies': ['React.js', 'React Native', 'WordPress', 'Node.js (Express)', 'Javascript ES6+', 'Typescript', 'GitHub', 'HTML', 'SCSS/CSS'],
+    'Technologies': ['React.js', 'React Native', 'Redux', 'Node.js (Express, NestJS)', 'Javascript ES6+', 'Typescript', 'GitHub', 'HTML', 'SCSS/CSS'],
   },
   {
     'Company': 'NP LLC "AKOVA',
